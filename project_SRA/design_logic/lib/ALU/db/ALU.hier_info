@@ -1,0 +1,3586 @@
+|Multi16bit
+O[0] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[2] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[3] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[4] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[5] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[6] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[7] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[8] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[9] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[10] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[11] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[12] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[13] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[14] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[15] <= O.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Multi2:instMulti20.A[0]
+A[0] => Adder16Bit:inst7.B[0]
+A[0] => Multi4:instMulti40.A[0]
+A[0] => Adder16Bit:inst9.B[0]
+A[0] => Multi8:instMulti80.A[0]
+A[0] => Sub16BIT:inst13.B[0]
+A[0] => Adder16Bit:inst15.B[0]
+A[0] => inst5[0].DATAIN
+A[1] => Multi2:instMulti20.A[1]
+A[1] => Adder16Bit:inst7.B[1]
+A[1] => Multi4:instMulti40.A[1]
+A[1] => Adder16Bit:inst9.B[1]
+A[1] => Multi8:instMulti80.A[1]
+A[1] => Sub16BIT:inst13.B[1]
+A[1] => Adder16Bit:inst15.B[1]
+A[1] => inst5[1].DATAIN
+A[2] => Multi2:instMulti20.A[2]
+A[2] => Adder16Bit:inst7.B[2]
+A[2] => Multi4:instMulti40.A[2]
+A[2] => Adder16Bit:inst9.B[2]
+A[2] => Multi8:instMulti80.A[2]
+A[2] => Sub16BIT:inst13.B[2]
+A[2] => Adder16Bit:inst15.B[2]
+A[2] => inst5[2].DATAIN
+A[3] => Multi2:instMulti20.A[3]
+A[3] => Adder16Bit:inst7.B[3]
+A[3] => Multi4:instMulti40.A[3]
+A[3] => Adder16Bit:inst9.B[3]
+A[3] => Multi8:instMulti80.A[3]
+A[3] => Sub16BIT:inst13.B[3]
+A[3] => Adder16Bit:inst15.B[3]
+A[3] => inst5[3].DATAIN
+A[4] => Multi2:instMulti20.A[4]
+A[4] => Adder16Bit:inst7.B[4]
+A[4] => Multi4:instMulti40.A[4]
+A[4] => Adder16Bit:inst9.B[4]
+A[4] => Multi8:instMulti80.A[4]
+A[4] => Sub16BIT:inst13.B[4]
+A[4] => Adder16Bit:inst15.B[4]
+A[4] => inst5[4].DATAIN
+A[5] => Multi2:instMulti20.A[5]
+A[5] => Adder16Bit:inst7.B[5]
+A[5] => Multi4:instMulti40.A[5]
+A[5] => Adder16Bit:inst9.B[5]
+A[5] => Multi8:instMulti80.A[5]
+A[5] => Sub16BIT:inst13.B[5]
+A[5] => Adder16Bit:inst15.B[5]
+A[5] => inst5[5].DATAIN
+A[6] => Multi2:instMulti20.A[6]
+A[6] => Adder16Bit:inst7.B[6]
+A[6] => Multi4:instMulti40.A[6]
+A[6] => Adder16Bit:inst9.B[6]
+A[6] => Multi8:instMulti80.A[6]
+A[6] => Sub16BIT:inst13.B[6]
+A[6] => Adder16Bit:inst15.B[6]
+A[6] => inst5[6].DATAIN
+A[7] => Multi2:instMulti20.A[7]
+A[7] => Adder16Bit:inst7.B[7]
+A[7] => Multi4:instMulti40.A[7]
+A[7] => Adder16Bit:inst9.B[7]
+A[7] => Multi8:instMulti80.A[7]
+A[7] => Sub16BIT:inst13.B[7]
+A[7] => Adder16Bit:inst15.B[7]
+A[7] => inst5[7].DATAIN
+A[8] => Multi2:instMulti20.A[8]
+A[8] => Adder16Bit:inst7.B[8]
+A[8] => Multi4:instMulti40.A[8]
+A[8] => Adder16Bit:inst9.B[8]
+A[8] => Multi8:instMulti80.A[8]
+A[8] => Sub16BIT:inst13.B[8]
+A[8] => Adder16Bit:inst15.B[8]
+A[8] => inst5[8].DATAIN
+A[9] => Multi2:instMulti20.A[9]
+A[9] => Adder16Bit:inst7.B[9]
+A[9] => Multi4:instMulti40.A[9]
+A[9] => Adder16Bit:inst9.B[9]
+A[9] => Multi8:instMulti80.A[9]
+A[9] => Sub16BIT:inst13.B[9]
+A[9] => Adder16Bit:inst15.B[9]
+A[9] => inst5[9].DATAIN
+A[10] => Multi2:instMulti20.A[10]
+A[10] => Adder16Bit:inst7.B[10]
+A[10] => Multi4:instMulti40.A[10]
+A[10] => Adder16Bit:inst9.B[10]
+A[10] => Multi8:instMulti80.A[10]
+A[10] => Sub16BIT:inst13.B[10]
+A[10] => Adder16Bit:inst15.B[10]
+A[10] => inst5[10].DATAIN
+A[11] => Multi2:instMulti20.A[11]
+A[11] => Adder16Bit:inst7.B[11]
+A[11] => Multi4:instMulti40.A[11]
+A[11] => Adder16Bit:inst9.B[11]
+A[11] => Multi8:instMulti80.A[11]
+A[11] => Sub16BIT:inst13.B[11]
+A[11] => Adder16Bit:inst15.B[11]
+A[11] => inst5[11].DATAIN
+A[12] => Multi2:instMulti20.A[12]
+A[12] => Adder16Bit:inst7.B[12]
+A[12] => Multi4:instMulti40.A[12]
+A[12] => Adder16Bit:inst9.B[12]
+A[12] => Multi8:instMulti80.A[12]
+A[12] => Sub16BIT:inst13.B[12]
+A[12] => Adder16Bit:inst15.B[12]
+A[12] => inst5[12].DATAIN
+A[13] => Multi2:instMulti20.A[13]
+A[13] => Adder16Bit:inst7.B[13]
+A[13] => Multi4:instMulti40.A[13]
+A[13] => Adder16Bit:inst9.B[13]
+A[13] => Multi8:instMulti80.A[13]
+A[13] => Sub16BIT:inst13.B[13]
+A[13] => Adder16Bit:inst15.B[13]
+A[13] => inst5[13].DATAIN
+A[14] => Multi2:instMulti20.A[14]
+A[14] => Adder16Bit:inst7.B[14]
+A[14] => Multi4:instMulti40.A[14]
+A[14] => Adder16Bit:inst9.B[14]
+A[14] => Multi8:instMulti80.A[14]
+A[14] => Sub16BIT:inst13.B[14]
+A[14] => Adder16Bit:inst15.B[14]
+A[14] => inst5[14].DATAIN
+A[15] => Multi2:instMulti20.A[15]
+A[15] => Adder16Bit:inst7.B[15]
+A[15] => Multi4:instMulti40.A[15]
+A[15] => Adder16Bit:inst9.B[15]
+A[15] => Multi8:instMulti80.A[15]
+A[15] => Sub16BIT:inst13.B[15]
+A[15] => Adder16Bit:inst15.B[15]
+A[15] => inst5[15].DATAIN
+B[0] => Decode4To10:inst6.I[0]
+B[1] => Decode4To10:inst6.I[1]
+B[2] => Decode4To10:inst6.I[2]
+B[3] => Decode4To10:inst6.I[3]
+
+
+|Multi16bit|Adder16Bit:inst7
+R[0] <= Adder8Bit:instAdder8Bit00.R[0]
+R[1] <= Adder8Bit:instAdder8Bit00.R[1]
+R[2] <= Adder8Bit:instAdder8Bit00.R[2]
+R[3] <= Adder8Bit:instAdder8Bit00.R[3]
+R[4] <= Adder8Bit:instAdder8Bit00.R[4]
+R[5] <= Adder8Bit:instAdder8Bit00.R[5]
+R[6] <= Adder8Bit:instAdder8Bit00.R[6]
+R[7] <= Adder8Bit:instAdder8Bit00.R[7]
+R[8] <= Adder8Bit:instAdder8Bit0.R[0]
+R[9] <= Adder8Bit:instAdder8Bit0.R[1]
+R[10] <= Adder8Bit:instAdder8Bit0.R[2]
+R[11] <= Adder8Bit:instAdder8Bit0.R[3]
+R[12] <= Adder8Bit:instAdder8Bit0.R[4]
+R[13] <= Adder8Bit:instAdder8Bit0.R[5]
+R[14] <= Adder8Bit:instAdder8Bit0.R[6]
+R[15] <= Adder8Bit:instAdder8Bit0.R[7]
+A[0] => Adder8Bit:instAdder8Bit00.A[0]
+A[1] => Adder8Bit:instAdder8Bit00.A[1]
+A[2] => Adder8Bit:instAdder8Bit00.A[2]
+A[3] => Adder8Bit:instAdder8Bit00.A[3]
+A[4] => Adder8Bit:instAdder8Bit00.A[4]
+A[5] => Adder8Bit:instAdder8Bit00.A[5]
+A[6] => Adder8Bit:instAdder8Bit00.A[6]
+A[7] => Adder8Bit:instAdder8Bit00.A[7]
+A[8] => Adder8Bit:instAdder8Bit0.A[0]
+A[9] => Adder8Bit:instAdder8Bit0.A[1]
+A[10] => Adder8Bit:instAdder8Bit0.A[2]
+A[11] => Adder8Bit:instAdder8Bit0.A[3]
+A[12] => Adder8Bit:instAdder8Bit0.A[4]
+A[13] => Adder8Bit:instAdder8Bit0.A[5]
+A[14] => Adder8Bit:instAdder8Bit0.A[6]
+A[15] => Adder8Bit:instAdder8Bit0.A[7]
+B[0] => Adder8Bit:instAdder8Bit00.B[0]
+B[1] => Adder8Bit:instAdder8Bit00.B[1]
+B[2] => Adder8Bit:instAdder8Bit00.B[2]
+B[3] => Adder8Bit:instAdder8Bit00.B[3]
+B[4] => Adder8Bit:instAdder8Bit00.B[4]
+B[5] => Adder8Bit:instAdder8Bit00.B[5]
+B[6] => Adder8Bit:instAdder8Bit00.B[6]
+B[7] => Adder8Bit:instAdder8Bit00.B[7]
+B[8] => Adder8Bit:instAdder8Bit0.B[0]
+B[9] => Adder8Bit:instAdder8Bit0.B[1]
+B[10] => Adder8Bit:instAdder8Bit0.B[2]
+B[11] => Adder8Bit:instAdder8Bit0.B[3]
+B[12] => Adder8Bit:instAdder8Bit0.B[4]
+B[13] => Adder8Bit:instAdder8Bit0.B[5]
+B[14] => Adder8Bit:instAdder8Bit0.B[6]
+B[15] => Adder8Bit:instAdder8Bit0.B[7]
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00
+CaryOUT <= Adder4Bit:inst0.CaryOut
+CaryIN => Adder4Bit:inst00.CaryIn
+A[0] => Adder4Bit:inst00.I0[0]
+A[1] => Adder4Bit:inst00.I0[1]
+A[2] => Adder4Bit:inst00.I0[2]
+A[3] => Adder4Bit:inst00.I0[3]
+A[4] => Adder4Bit:inst0.I0[0]
+A[5] => Adder4Bit:inst0.I0[1]
+A[6] => Adder4Bit:inst0.I0[2]
+A[7] => Adder4Bit:inst0.I0[3]
+B[0] => Adder4Bit:inst00.I1[0]
+B[1] => Adder4Bit:inst00.I1[1]
+B[2] => Adder4Bit:inst00.I1[2]
+B[3] => Adder4Bit:inst00.I1[3]
+B[4] => Adder4Bit:inst0.I1[0]
+B[5] => Adder4Bit:inst0.I1[1]
+B[6] => Adder4Bit:inst0.I1[2]
+B[7] => Adder4Bit:inst0.I1[3]
+R[0] <= Adder4Bit:inst00.O[0]
+R[1] <= Adder4Bit:inst00.O[1]
+R[2] <= Adder4Bit:inst00.O[2]
+R[3] <= Adder4Bit:inst00.O[3]
+R[4] <= Adder4Bit:inst0.O[0]
+R[5] <= Adder4Bit:inst0.O[1]
+R[6] <= Adder4Bit:inst0.O[2]
+R[7] <= Adder4Bit:inst0.O[3]
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0
+CaryOUT <= Adder4Bit:inst0.CaryOut
+CaryIN => Adder4Bit:inst00.CaryIn
+A[0] => Adder4Bit:inst00.I0[0]
+A[1] => Adder4Bit:inst00.I0[1]
+A[2] => Adder4Bit:inst00.I0[2]
+A[3] => Adder4Bit:inst00.I0[3]
+A[4] => Adder4Bit:inst0.I0[0]
+A[5] => Adder4Bit:inst0.I0[1]
+A[6] => Adder4Bit:inst0.I0[2]
+A[7] => Adder4Bit:inst0.I0[3]
+B[0] => Adder4Bit:inst00.I1[0]
+B[1] => Adder4Bit:inst00.I1[1]
+B[2] => Adder4Bit:inst00.I1[2]
+B[3] => Adder4Bit:inst00.I1[3]
+B[4] => Adder4Bit:inst0.I1[0]
+B[5] => Adder4Bit:inst0.I1[1]
+B[6] => Adder4Bit:inst0.I1[2]
+B[7] => Adder4Bit:inst0.I1[3]
+R[0] <= Adder4Bit:inst00.O[0]
+R[1] <= Adder4Bit:inst00.O[1]
+R[2] <= Adder4Bit:inst00.O[2]
+R[3] <= Adder4Bit:inst00.O[3]
+R[4] <= Adder4Bit:inst0.O[0]
+R[5] <= Adder4Bit:inst0.O[1]
+R[6] <= Adder4Bit:inst0.O[2]
+R[7] <= Adder4Bit:inst0.O[3]
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst7|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Multi2:instMulti20
+O[0] <= ShiftLeft16bit:instShitLieft16bit0.O[0]
+O[1] <= ShiftLeft16bit:instShitLieft16bit0.O[1]
+O[2] <= ShiftLeft16bit:instShitLieft16bit0.O[2]
+O[3] <= ShiftLeft16bit:instShitLieft16bit0.O[3]
+O[4] <= ShiftLeft16bit:instShitLieft16bit0.O[4]
+O[5] <= ShiftLeft16bit:instShitLieft16bit0.O[5]
+O[6] <= ShiftLeft16bit:instShitLieft16bit0.O[6]
+O[7] <= ShiftLeft16bit:instShitLieft16bit0.O[7]
+O[8] <= ShiftLeft16bit:instShitLieft16bit0.O[8]
+O[9] <= ShiftLeft16bit:instShitLieft16bit0.O[9]
+O[10] <= ShiftLeft16bit:instShitLieft16bit0.O[10]
+O[11] <= ShiftLeft16bit:instShitLieft16bit0.O[11]
+O[12] <= ShiftLeft16bit:instShitLieft16bit0.O[12]
+O[13] <= ShiftLeft16bit:instShitLieft16bit0.O[13]
+O[14] <= ShiftLeft16bit:instShitLieft16bit0.O[14]
+O[15] <= ShiftLeft16bit:instShitLieft16bit0.O[15]
+A[0] => ShiftLeft16bit:instShitLieft16bit0.I[0]
+A[1] => ShiftLeft16bit:instShitLieft16bit0.I[1]
+A[2] => ShiftLeft16bit:instShitLieft16bit0.I[2]
+A[3] => ShiftLeft16bit:instShitLieft16bit0.I[3]
+A[4] => ShiftLeft16bit:instShitLieft16bit0.I[4]
+A[5] => ShiftLeft16bit:instShitLieft16bit0.I[5]
+A[6] => ShiftLeft16bit:instShitLieft16bit0.I[6]
+A[7] => ShiftLeft16bit:instShitLieft16bit0.I[7]
+A[8] => ShiftLeft16bit:instShitLieft16bit0.I[8]
+A[9] => ShiftLeft16bit:instShitLieft16bit0.I[9]
+A[10] => ShiftLeft16bit:instShitLieft16bit0.I[10]
+A[11] => ShiftLeft16bit:instShitLieft16bit0.I[11]
+A[12] => ShiftLeft16bit:instShitLieft16bit0.I[12]
+A[13] => ShiftLeft16bit:instShitLieft16bit0.I[13]
+A[14] => ShiftLeft16bit:instShitLieft16bit0.I[14]
+A[15] => ShiftLeft16bit:instShitLieft16bit0.I[15]
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0
+O[0] <= ShiftLeft8bit:instShiftLef8bit1.O[0]
+O[1] <= ShiftLeft8bit:instShiftLef8bit1.O[1]
+O[2] <= ShiftLeft8bit:instShiftLef8bit1.O[2]
+O[3] <= ShiftLeft8bit:instShiftLef8bit1.O[3]
+O[4] <= ShiftLeft8bit:instShiftLef8bit1.O[4]
+O[5] <= ShiftLeft8bit:instShiftLef8bit1.O[5]
+O[6] <= ShiftLeft8bit:instShiftLef8bit1.O[6]
+O[7] <= ShiftLeft8bit:instShiftLef8bit1.O[7]
+O[8] <= ShiftLeft8bit:instShiftLef8bit0.O[0]
+O[9] <= ShiftLeft8bit:instShiftLef8bit0.O[1]
+O[10] <= ShiftLeft8bit:instShiftLef8bit0.O[2]
+O[11] <= ShiftLeft8bit:instShiftLef8bit0.O[3]
+O[12] <= ShiftLeft8bit:instShiftLef8bit0.O[4]
+O[13] <= ShiftLeft8bit:instShiftLef8bit0.O[5]
+O[14] <= ShiftLeft8bit:instShiftLef8bit0.O[6]
+O[15] <= ShiftLeft8bit:instShiftLef8bit0.O[7]
+I[0] => ShiftLeft8bit:instShiftLef8bit1.I[0]
+I[1] => ShiftLeft8bit:instShiftLef8bit1.I[1]
+I[2] => ShiftLeft8bit:instShiftLef8bit1.I[2]
+I[3] => ShiftLeft8bit:instShiftLef8bit1.I[3]
+I[4] => ShiftLeft8bit:instShiftLef8bit1.I[4]
+I[5] => ShiftLeft8bit:instShiftLef8bit0.Shift3[0]
+I[5] => ShiftLeft8bit:instShiftLef8bit1.I[5]
+I[6] => ShiftLeft8bit:instShiftLef8bit0.Shift2[0]
+I[6] => ShiftLeft8bit:instShiftLef8bit0.Shift3[1]
+I[6] => ShiftLeft8bit:instShiftLef8bit1.I[6]
+I[7] => ShiftLeft8bit:instShiftLef8bit0.Shift1
+I[7] => ShiftLeft8bit:instShiftLef8bit0.Shift2[1]
+I[7] => ShiftLeft8bit:instShiftLef8bit0.Shift3[2]
+I[7] => ShiftLeft8bit:instShiftLef8bit1.I[7]
+I[8] => ShiftLeft8bit:instShiftLef8bit0.I[0]
+I[9] => ShiftLeft8bit:instShiftLef8bit0.I[1]
+I[10] => ShiftLeft8bit:instShiftLef8bit0.I[2]
+I[11] => ShiftLeft8bit:instShiftLef8bit0.I[3]
+I[12] => ShiftLeft8bit:instShiftLef8bit0.I[4]
+I[13] => ShiftLeft8bit:instShiftLef8bit0.I[5]
+I[14] => ShiftLeft8bit:instShiftLef8bit0.I[6]
+I[15] => ShiftLeft8bit:instShiftLef8bit0.I[7]
+S[0] => ShiftLeft8bit:instShiftLef8bit0.S[0]
+S[0] => ShiftLeft8bit:instShiftLef8bit1.S[0]
+S[1] => ShiftLeft8bit:instShiftLef8bit0.S[1]
+S[1] => ShiftLeft8bit:instShiftLef8bit1.S[1]
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0
+O[0] <= ShiftLeft4bit:instShiftLeft4bit1.O[0]
+O[1] <= ShiftLeft4bit:instShiftLeft4bit1.O[1]
+O[2] <= ShiftLeft4bit:instShiftLeft4bit1.O[2]
+O[3] <= ShiftLeft4bit:instShiftLeft4bit1.O[3]
+O[4] <= ShiftLeft4bit:instShiftLeft4bit0.O[0]
+O[5] <= ShiftLeft4bit:instShiftLeft4bit0.O[1]
+O[6] <= ShiftLeft4bit:instShiftLeft4bit0.O[2]
+O[7] <= ShiftLeft4bit:instShiftLeft4bit0.O[3]
+I[0] => ShiftLeft4bit:instShiftLeft4bit1.I[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit1.I[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[0]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit1.I[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift1
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[1]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit1.I[3]
+I[4] => ShiftLeft4bit:instShiftLeft4bit0.I[0]
+I[5] => ShiftLeft4bit:instShiftLeft4bit0.I[1]
+I[6] => ShiftLeft4bit:instShiftLeft4bit0.I[2]
+I[7] => ShiftLeft4bit:instShiftLeft4bit0.I[3]
+S[0] => ShiftLeft4bit:instShiftLeft4bit0.S[0]
+S[0] => ShiftLeft4bit:instShiftLeft4bit1.S[0]
+S[1] => ShiftLeft4bit:instShiftLeft4bit0.S[1]
+S[1] => ShiftLeft4bit:instShiftLeft4bit1.S[1]
+Shift1 => ShiftLeft4bit:instShiftLeft4bit1.Shift1
+Shift2[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[0]
+Shift2[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[1]
+Shift3[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[0]
+Shift3[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[1]
+Shift3[2] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[2]
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1
+O[0] <= ShiftLeft4bit:instShiftLeft4bit1.O[0]
+O[1] <= ShiftLeft4bit:instShiftLeft4bit1.O[1]
+O[2] <= ShiftLeft4bit:instShiftLeft4bit1.O[2]
+O[3] <= ShiftLeft4bit:instShiftLeft4bit1.O[3]
+O[4] <= ShiftLeft4bit:instShiftLeft4bit0.O[0]
+O[5] <= ShiftLeft4bit:instShiftLeft4bit0.O[1]
+O[6] <= ShiftLeft4bit:instShiftLeft4bit0.O[2]
+O[7] <= ShiftLeft4bit:instShiftLeft4bit0.O[3]
+I[0] => ShiftLeft4bit:instShiftLeft4bit1.I[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit1.I[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[0]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit1.I[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift1
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[1]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit1.I[3]
+I[4] => ShiftLeft4bit:instShiftLeft4bit0.I[0]
+I[5] => ShiftLeft4bit:instShiftLeft4bit0.I[1]
+I[6] => ShiftLeft4bit:instShiftLeft4bit0.I[2]
+I[7] => ShiftLeft4bit:instShiftLeft4bit0.I[3]
+S[0] => ShiftLeft4bit:instShiftLeft4bit0.S[0]
+S[0] => ShiftLeft4bit:instShiftLeft4bit1.S[0]
+S[1] => ShiftLeft4bit:instShiftLeft4bit0.S[1]
+S[1] => ShiftLeft4bit:instShiftLeft4bit1.S[1]
+Shift1 => ShiftLeft4bit:instShiftLeft4bit1.Shift1
+Shift2[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[0]
+Shift2[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[1]
+Shift3[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[0]
+Shift3[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[1]
+Shift3[2] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[2]
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi2:instMulti20|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Decode4To10:inst6
+O[0] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+O[2] <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+O[3] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+O[4] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+O[5] <= instAND0.DB_MAX_OUTPUT_PORT_TYPE
+O[6] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+O[7] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+O[8] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+O[9] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+I[0] => inst3.IN0
+I[0] => inst9.IN0
+I[0] => inst11.IN0
+I[0] => instAND0.IN0
+I[0] => inst5.IN0
+I[0] => inst7.IN0
+I[1] => inst2.IN0
+I[1] => inst10.IN1
+I[1] => inst11.IN1
+I[1] => inst4.IN1
+I[1] => inst5.IN1
+I[2] => inst1.IN0
+I[2] => inst12.IN2
+I[2] => instAND0.IN2
+I[2] => inst4.IN2
+I[2] => inst5.IN2
+I[3] => inst.IN0
+I[3] => inst6.IN3
+I[3] => inst7.IN3
+
+
+|Multi16bit|Multi4:instMulti40
+O[0] <= ShiftLeft16bit:instShitLieft16bit0.O[0]
+O[1] <= ShiftLeft16bit:instShitLieft16bit0.O[1]
+O[2] <= ShiftLeft16bit:instShitLieft16bit0.O[2]
+O[3] <= ShiftLeft16bit:instShitLieft16bit0.O[3]
+O[4] <= ShiftLeft16bit:instShitLieft16bit0.O[4]
+O[5] <= ShiftLeft16bit:instShitLieft16bit0.O[5]
+O[6] <= ShiftLeft16bit:instShitLieft16bit0.O[6]
+O[7] <= ShiftLeft16bit:instShitLieft16bit0.O[7]
+O[8] <= ShiftLeft16bit:instShitLieft16bit0.O[8]
+O[9] <= ShiftLeft16bit:instShitLieft16bit0.O[9]
+O[10] <= ShiftLeft16bit:instShitLieft16bit0.O[10]
+O[11] <= ShiftLeft16bit:instShitLieft16bit0.O[11]
+O[12] <= ShiftLeft16bit:instShitLieft16bit0.O[12]
+O[13] <= ShiftLeft16bit:instShitLieft16bit0.O[13]
+O[14] <= ShiftLeft16bit:instShitLieft16bit0.O[14]
+O[15] <= ShiftLeft16bit:instShitLieft16bit0.O[15]
+A[0] => ShiftLeft16bit:instShitLieft16bit0.I[0]
+A[1] => ShiftLeft16bit:instShitLieft16bit0.I[1]
+A[2] => ShiftLeft16bit:instShitLieft16bit0.I[2]
+A[3] => ShiftLeft16bit:instShitLieft16bit0.I[3]
+A[4] => ShiftLeft16bit:instShitLieft16bit0.I[4]
+A[5] => ShiftLeft16bit:instShitLieft16bit0.I[5]
+A[6] => ShiftLeft16bit:instShitLieft16bit0.I[6]
+A[7] => ShiftLeft16bit:instShitLieft16bit0.I[7]
+A[8] => ShiftLeft16bit:instShitLieft16bit0.I[8]
+A[9] => ShiftLeft16bit:instShitLieft16bit0.I[9]
+A[10] => ShiftLeft16bit:instShitLieft16bit0.I[10]
+A[11] => ShiftLeft16bit:instShitLieft16bit0.I[11]
+A[12] => ShiftLeft16bit:instShitLieft16bit0.I[12]
+A[13] => ShiftLeft16bit:instShitLieft16bit0.I[13]
+A[14] => ShiftLeft16bit:instShitLieft16bit0.I[14]
+A[15] => ShiftLeft16bit:instShitLieft16bit0.I[15]
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0
+O[0] <= ShiftLeft8bit:instShiftLef8bit1.O[0]
+O[1] <= ShiftLeft8bit:instShiftLef8bit1.O[1]
+O[2] <= ShiftLeft8bit:instShiftLef8bit1.O[2]
+O[3] <= ShiftLeft8bit:instShiftLef8bit1.O[3]
+O[4] <= ShiftLeft8bit:instShiftLef8bit1.O[4]
+O[5] <= ShiftLeft8bit:instShiftLef8bit1.O[5]
+O[6] <= ShiftLeft8bit:instShiftLef8bit1.O[6]
+O[7] <= ShiftLeft8bit:instShiftLef8bit1.O[7]
+O[8] <= ShiftLeft8bit:instShiftLef8bit0.O[0]
+O[9] <= ShiftLeft8bit:instShiftLef8bit0.O[1]
+O[10] <= ShiftLeft8bit:instShiftLef8bit0.O[2]
+O[11] <= ShiftLeft8bit:instShiftLef8bit0.O[3]
+O[12] <= ShiftLeft8bit:instShiftLef8bit0.O[4]
+O[13] <= ShiftLeft8bit:instShiftLef8bit0.O[5]
+O[14] <= ShiftLeft8bit:instShiftLef8bit0.O[6]
+O[15] <= ShiftLeft8bit:instShiftLef8bit0.O[7]
+I[0] => ShiftLeft8bit:instShiftLef8bit1.I[0]
+I[1] => ShiftLeft8bit:instShiftLef8bit1.I[1]
+I[2] => ShiftLeft8bit:instShiftLef8bit1.I[2]
+I[3] => ShiftLeft8bit:instShiftLef8bit1.I[3]
+I[4] => ShiftLeft8bit:instShiftLef8bit1.I[4]
+I[5] => ShiftLeft8bit:instShiftLef8bit0.Shift3[0]
+I[5] => ShiftLeft8bit:instShiftLef8bit1.I[5]
+I[6] => ShiftLeft8bit:instShiftLef8bit0.Shift2[0]
+I[6] => ShiftLeft8bit:instShiftLef8bit0.Shift3[1]
+I[6] => ShiftLeft8bit:instShiftLef8bit1.I[6]
+I[7] => ShiftLeft8bit:instShiftLef8bit0.Shift1
+I[7] => ShiftLeft8bit:instShiftLef8bit0.Shift2[1]
+I[7] => ShiftLeft8bit:instShiftLef8bit0.Shift3[2]
+I[7] => ShiftLeft8bit:instShiftLef8bit1.I[7]
+I[8] => ShiftLeft8bit:instShiftLef8bit0.I[0]
+I[9] => ShiftLeft8bit:instShiftLef8bit0.I[1]
+I[10] => ShiftLeft8bit:instShiftLef8bit0.I[2]
+I[11] => ShiftLeft8bit:instShiftLef8bit0.I[3]
+I[12] => ShiftLeft8bit:instShiftLef8bit0.I[4]
+I[13] => ShiftLeft8bit:instShiftLef8bit0.I[5]
+I[14] => ShiftLeft8bit:instShiftLef8bit0.I[6]
+I[15] => ShiftLeft8bit:instShiftLef8bit0.I[7]
+S[0] => ShiftLeft8bit:instShiftLef8bit0.S[0]
+S[0] => ShiftLeft8bit:instShiftLef8bit1.S[0]
+S[1] => ShiftLeft8bit:instShiftLef8bit0.S[1]
+S[1] => ShiftLeft8bit:instShiftLef8bit1.S[1]
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0
+O[0] <= ShiftLeft4bit:instShiftLeft4bit1.O[0]
+O[1] <= ShiftLeft4bit:instShiftLeft4bit1.O[1]
+O[2] <= ShiftLeft4bit:instShiftLeft4bit1.O[2]
+O[3] <= ShiftLeft4bit:instShiftLeft4bit1.O[3]
+O[4] <= ShiftLeft4bit:instShiftLeft4bit0.O[0]
+O[5] <= ShiftLeft4bit:instShiftLeft4bit0.O[1]
+O[6] <= ShiftLeft4bit:instShiftLeft4bit0.O[2]
+O[7] <= ShiftLeft4bit:instShiftLeft4bit0.O[3]
+I[0] => ShiftLeft4bit:instShiftLeft4bit1.I[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit1.I[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[0]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit1.I[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift1
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[1]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit1.I[3]
+I[4] => ShiftLeft4bit:instShiftLeft4bit0.I[0]
+I[5] => ShiftLeft4bit:instShiftLeft4bit0.I[1]
+I[6] => ShiftLeft4bit:instShiftLeft4bit0.I[2]
+I[7] => ShiftLeft4bit:instShiftLeft4bit0.I[3]
+S[0] => ShiftLeft4bit:instShiftLeft4bit0.S[0]
+S[0] => ShiftLeft4bit:instShiftLeft4bit1.S[0]
+S[1] => ShiftLeft4bit:instShiftLeft4bit0.S[1]
+S[1] => ShiftLeft4bit:instShiftLeft4bit1.S[1]
+Shift1 => ShiftLeft4bit:instShiftLeft4bit1.Shift1
+Shift2[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[0]
+Shift2[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[1]
+Shift3[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[0]
+Shift3[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[1]
+Shift3[2] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[2]
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1
+O[0] <= ShiftLeft4bit:instShiftLeft4bit1.O[0]
+O[1] <= ShiftLeft4bit:instShiftLeft4bit1.O[1]
+O[2] <= ShiftLeft4bit:instShiftLeft4bit1.O[2]
+O[3] <= ShiftLeft4bit:instShiftLeft4bit1.O[3]
+O[4] <= ShiftLeft4bit:instShiftLeft4bit0.O[0]
+O[5] <= ShiftLeft4bit:instShiftLeft4bit0.O[1]
+O[6] <= ShiftLeft4bit:instShiftLeft4bit0.O[2]
+O[7] <= ShiftLeft4bit:instShiftLeft4bit0.O[3]
+I[0] => ShiftLeft4bit:instShiftLeft4bit1.I[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit1.I[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[0]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit1.I[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift1
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[1]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit1.I[3]
+I[4] => ShiftLeft4bit:instShiftLeft4bit0.I[0]
+I[5] => ShiftLeft4bit:instShiftLeft4bit0.I[1]
+I[6] => ShiftLeft4bit:instShiftLeft4bit0.I[2]
+I[7] => ShiftLeft4bit:instShiftLeft4bit0.I[3]
+S[0] => ShiftLeft4bit:instShiftLeft4bit0.S[0]
+S[0] => ShiftLeft4bit:instShiftLeft4bit1.S[0]
+S[1] => ShiftLeft4bit:instShiftLeft4bit0.S[1]
+S[1] => ShiftLeft4bit:instShiftLeft4bit1.S[1]
+Shift1 => ShiftLeft4bit:instShiftLeft4bit1.Shift1
+Shift2[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[0]
+Shift2[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[1]
+Shift3[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[0]
+Shift3[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[1]
+Shift3[2] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[2]
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi4:instMulti40|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Adder16Bit:inst9
+R[0] <= Adder8Bit:instAdder8Bit00.R[0]
+R[1] <= Adder8Bit:instAdder8Bit00.R[1]
+R[2] <= Adder8Bit:instAdder8Bit00.R[2]
+R[3] <= Adder8Bit:instAdder8Bit00.R[3]
+R[4] <= Adder8Bit:instAdder8Bit00.R[4]
+R[5] <= Adder8Bit:instAdder8Bit00.R[5]
+R[6] <= Adder8Bit:instAdder8Bit00.R[6]
+R[7] <= Adder8Bit:instAdder8Bit00.R[7]
+R[8] <= Adder8Bit:instAdder8Bit0.R[0]
+R[9] <= Adder8Bit:instAdder8Bit0.R[1]
+R[10] <= Adder8Bit:instAdder8Bit0.R[2]
+R[11] <= Adder8Bit:instAdder8Bit0.R[3]
+R[12] <= Adder8Bit:instAdder8Bit0.R[4]
+R[13] <= Adder8Bit:instAdder8Bit0.R[5]
+R[14] <= Adder8Bit:instAdder8Bit0.R[6]
+R[15] <= Adder8Bit:instAdder8Bit0.R[7]
+A[0] => Adder8Bit:instAdder8Bit00.A[0]
+A[1] => Adder8Bit:instAdder8Bit00.A[1]
+A[2] => Adder8Bit:instAdder8Bit00.A[2]
+A[3] => Adder8Bit:instAdder8Bit00.A[3]
+A[4] => Adder8Bit:instAdder8Bit00.A[4]
+A[5] => Adder8Bit:instAdder8Bit00.A[5]
+A[6] => Adder8Bit:instAdder8Bit00.A[6]
+A[7] => Adder8Bit:instAdder8Bit00.A[7]
+A[8] => Adder8Bit:instAdder8Bit0.A[0]
+A[9] => Adder8Bit:instAdder8Bit0.A[1]
+A[10] => Adder8Bit:instAdder8Bit0.A[2]
+A[11] => Adder8Bit:instAdder8Bit0.A[3]
+A[12] => Adder8Bit:instAdder8Bit0.A[4]
+A[13] => Adder8Bit:instAdder8Bit0.A[5]
+A[14] => Adder8Bit:instAdder8Bit0.A[6]
+A[15] => Adder8Bit:instAdder8Bit0.A[7]
+B[0] => Adder8Bit:instAdder8Bit00.B[0]
+B[1] => Adder8Bit:instAdder8Bit00.B[1]
+B[2] => Adder8Bit:instAdder8Bit00.B[2]
+B[3] => Adder8Bit:instAdder8Bit00.B[3]
+B[4] => Adder8Bit:instAdder8Bit00.B[4]
+B[5] => Adder8Bit:instAdder8Bit00.B[5]
+B[6] => Adder8Bit:instAdder8Bit00.B[6]
+B[7] => Adder8Bit:instAdder8Bit00.B[7]
+B[8] => Adder8Bit:instAdder8Bit0.B[0]
+B[9] => Adder8Bit:instAdder8Bit0.B[1]
+B[10] => Adder8Bit:instAdder8Bit0.B[2]
+B[11] => Adder8Bit:instAdder8Bit0.B[3]
+B[12] => Adder8Bit:instAdder8Bit0.B[4]
+B[13] => Adder8Bit:instAdder8Bit0.B[5]
+B[14] => Adder8Bit:instAdder8Bit0.B[6]
+B[15] => Adder8Bit:instAdder8Bit0.B[7]
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00
+CaryOUT <= Adder4Bit:inst0.CaryOut
+CaryIN => Adder4Bit:inst00.CaryIn
+A[0] => Adder4Bit:inst00.I0[0]
+A[1] => Adder4Bit:inst00.I0[1]
+A[2] => Adder4Bit:inst00.I0[2]
+A[3] => Adder4Bit:inst00.I0[3]
+A[4] => Adder4Bit:inst0.I0[0]
+A[5] => Adder4Bit:inst0.I0[1]
+A[6] => Adder4Bit:inst0.I0[2]
+A[7] => Adder4Bit:inst0.I0[3]
+B[0] => Adder4Bit:inst00.I1[0]
+B[1] => Adder4Bit:inst00.I1[1]
+B[2] => Adder4Bit:inst00.I1[2]
+B[3] => Adder4Bit:inst00.I1[3]
+B[4] => Adder4Bit:inst0.I1[0]
+B[5] => Adder4Bit:inst0.I1[1]
+B[6] => Adder4Bit:inst0.I1[2]
+B[7] => Adder4Bit:inst0.I1[3]
+R[0] <= Adder4Bit:inst00.O[0]
+R[1] <= Adder4Bit:inst00.O[1]
+R[2] <= Adder4Bit:inst00.O[2]
+R[3] <= Adder4Bit:inst00.O[3]
+R[4] <= Adder4Bit:inst0.O[0]
+R[5] <= Adder4Bit:inst0.O[1]
+R[6] <= Adder4Bit:inst0.O[2]
+R[7] <= Adder4Bit:inst0.O[3]
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0
+CaryOUT <= Adder4Bit:inst0.CaryOut
+CaryIN => Adder4Bit:inst00.CaryIn
+A[0] => Adder4Bit:inst00.I0[0]
+A[1] => Adder4Bit:inst00.I0[1]
+A[2] => Adder4Bit:inst00.I0[2]
+A[3] => Adder4Bit:inst00.I0[3]
+A[4] => Adder4Bit:inst0.I0[0]
+A[5] => Adder4Bit:inst0.I0[1]
+A[6] => Adder4Bit:inst0.I0[2]
+A[7] => Adder4Bit:inst0.I0[3]
+B[0] => Adder4Bit:inst00.I1[0]
+B[1] => Adder4Bit:inst00.I1[1]
+B[2] => Adder4Bit:inst00.I1[2]
+B[3] => Adder4Bit:inst00.I1[3]
+B[4] => Adder4Bit:inst0.I1[0]
+B[5] => Adder4Bit:inst0.I1[1]
+B[6] => Adder4Bit:inst0.I1[2]
+B[7] => Adder4Bit:inst0.I1[3]
+R[0] <= Adder4Bit:inst00.O[0]
+R[1] <= Adder4Bit:inst00.O[1]
+R[2] <= Adder4Bit:inst00.O[2]
+R[3] <= Adder4Bit:inst00.O[3]
+R[4] <= Adder4Bit:inst0.O[0]
+R[5] <= Adder4Bit:inst0.O[1]
+R[6] <= Adder4Bit:inst0.O[2]
+R[7] <= Adder4Bit:inst0.O[3]
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst9|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11
+R[0] <= Adder8Bit:instAdder8Bit00.R[0]
+R[1] <= Adder8Bit:instAdder8Bit00.R[1]
+R[2] <= Adder8Bit:instAdder8Bit00.R[2]
+R[3] <= Adder8Bit:instAdder8Bit00.R[3]
+R[4] <= Adder8Bit:instAdder8Bit00.R[4]
+R[5] <= Adder8Bit:instAdder8Bit00.R[5]
+R[6] <= Adder8Bit:instAdder8Bit00.R[6]
+R[7] <= Adder8Bit:instAdder8Bit00.R[7]
+R[8] <= Adder8Bit:instAdder8Bit0.R[0]
+R[9] <= Adder8Bit:instAdder8Bit0.R[1]
+R[10] <= Adder8Bit:instAdder8Bit0.R[2]
+R[11] <= Adder8Bit:instAdder8Bit0.R[3]
+R[12] <= Adder8Bit:instAdder8Bit0.R[4]
+R[13] <= Adder8Bit:instAdder8Bit0.R[5]
+R[14] <= Adder8Bit:instAdder8Bit0.R[6]
+R[15] <= Adder8Bit:instAdder8Bit0.R[7]
+A[0] => Adder8Bit:instAdder8Bit00.A[0]
+A[1] => Adder8Bit:instAdder8Bit00.A[1]
+A[2] => Adder8Bit:instAdder8Bit00.A[2]
+A[3] => Adder8Bit:instAdder8Bit00.A[3]
+A[4] => Adder8Bit:instAdder8Bit00.A[4]
+A[5] => Adder8Bit:instAdder8Bit00.A[5]
+A[6] => Adder8Bit:instAdder8Bit00.A[6]
+A[7] => Adder8Bit:instAdder8Bit00.A[7]
+A[8] => Adder8Bit:instAdder8Bit0.A[0]
+A[9] => Adder8Bit:instAdder8Bit0.A[1]
+A[10] => Adder8Bit:instAdder8Bit0.A[2]
+A[11] => Adder8Bit:instAdder8Bit0.A[3]
+A[12] => Adder8Bit:instAdder8Bit0.A[4]
+A[13] => Adder8Bit:instAdder8Bit0.A[5]
+A[14] => Adder8Bit:instAdder8Bit0.A[6]
+A[15] => Adder8Bit:instAdder8Bit0.A[7]
+B[0] => Adder8Bit:instAdder8Bit00.B[0]
+B[1] => Adder8Bit:instAdder8Bit00.B[1]
+B[2] => Adder8Bit:instAdder8Bit00.B[2]
+B[3] => Adder8Bit:instAdder8Bit00.B[3]
+B[4] => Adder8Bit:instAdder8Bit00.B[4]
+B[5] => Adder8Bit:instAdder8Bit00.B[5]
+B[6] => Adder8Bit:instAdder8Bit00.B[6]
+B[7] => Adder8Bit:instAdder8Bit00.B[7]
+B[8] => Adder8Bit:instAdder8Bit0.B[0]
+B[9] => Adder8Bit:instAdder8Bit0.B[1]
+B[10] => Adder8Bit:instAdder8Bit0.B[2]
+B[11] => Adder8Bit:instAdder8Bit0.B[3]
+B[12] => Adder8Bit:instAdder8Bit0.B[4]
+B[13] => Adder8Bit:instAdder8Bit0.B[5]
+B[14] => Adder8Bit:instAdder8Bit0.B[6]
+B[15] => Adder8Bit:instAdder8Bit0.B[7]
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00
+CaryOUT <= Adder4Bit:inst0.CaryOut
+CaryIN => Adder4Bit:inst00.CaryIn
+A[0] => Adder4Bit:inst00.I0[0]
+A[1] => Adder4Bit:inst00.I0[1]
+A[2] => Adder4Bit:inst00.I0[2]
+A[3] => Adder4Bit:inst00.I0[3]
+A[4] => Adder4Bit:inst0.I0[0]
+A[5] => Adder4Bit:inst0.I0[1]
+A[6] => Adder4Bit:inst0.I0[2]
+A[7] => Adder4Bit:inst0.I0[3]
+B[0] => Adder4Bit:inst00.I1[0]
+B[1] => Adder4Bit:inst00.I1[1]
+B[2] => Adder4Bit:inst00.I1[2]
+B[3] => Adder4Bit:inst00.I1[3]
+B[4] => Adder4Bit:inst0.I1[0]
+B[5] => Adder4Bit:inst0.I1[1]
+B[6] => Adder4Bit:inst0.I1[2]
+B[7] => Adder4Bit:inst0.I1[3]
+R[0] <= Adder4Bit:inst00.O[0]
+R[1] <= Adder4Bit:inst00.O[1]
+R[2] <= Adder4Bit:inst00.O[2]
+R[3] <= Adder4Bit:inst00.O[3]
+R[4] <= Adder4Bit:inst0.O[0]
+R[5] <= Adder4Bit:inst0.O[1]
+R[6] <= Adder4Bit:inst0.O[2]
+R[7] <= Adder4Bit:inst0.O[3]
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0
+CaryOUT <= Adder4Bit:inst0.CaryOut
+CaryIN => Adder4Bit:inst00.CaryIn
+A[0] => Adder4Bit:inst00.I0[0]
+A[1] => Adder4Bit:inst00.I0[1]
+A[2] => Adder4Bit:inst00.I0[2]
+A[3] => Adder4Bit:inst00.I0[3]
+A[4] => Adder4Bit:inst0.I0[0]
+A[5] => Adder4Bit:inst0.I0[1]
+A[6] => Adder4Bit:inst0.I0[2]
+A[7] => Adder4Bit:inst0.I0[3]
+B[0] => Adder4Bit:inst00.I1[0]
+B[1] => Adder4Bit:inst00.I1[1]
+B[2] => Adder4Bit:inst00.I1[2]
+B[3] => Adder4Bit:inst00.I1[3]
+B[4] => Adder4Bit:inst0.I1[0]
+B[5] => Adder4Bit:inst0.I1[1]
+B[6] => Adder4Bit:inst0.I1[2]
+B[7] => Adder4Bit:inst0.I1[3]
+R[0] <= Adder4Bit:inst00.O[0]
+R[1] <= Adder4Bit:inst00.O[1]
+R[2] <= Adder4Bit:inst00.O[2]
+R[3] <= Adder4Bit:inst00.O[3]
+R[4] <= Adder4Bit:inst0.O[0]
+R[5] <= Adder4Bit:inst0.O[1]
+R[6] <= Adder4Bit:inst0.O[2]
+R[7] <= Adder4Bit:inst0.O[3]
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst11|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13
+R[0] <= Sub8BIT:instSub8BIT00.R[0]
+R[1] <= Sub8BIT:instSub8BIT00.R[1]
+R[2] <= Sub8BIT:instSub8BIT00.R[2]
+R[3] <= Sub8BIT:instSub8BIT00.R[3]
+R[4] <= Sub8BIT:instSub8BIT00.R[4]
+R[5] <= Sub8BIT:instSub8BIT00.R[5]
+R[6] <= Sub8BIT:instSub8BIT00.R[6]
+R[7] <= Sub8BIT:instSub8BIT00.R[7]
+R[8] <= Sub8BIT:instSub8BIT0.R[0]
+R[9] <= Sub8BIT:instSub8BIT0.R[1]
+R[10] <= Sub8BIT:instSub8BIT0.R[2]
+R[11] <= Sub8BIT:instSub8BIT0.R[3]
+R[12] <= Sub8BIT:instSub8BIT0.R[4]
+R[13] <= Sub8BIT:instSub8BIT0.R[5]
+R[14] <= Sub8BIT:instSub8BIT0.R[6]
+R[15] <= Sub8BIT:instSub8BIT0.R[7]
+A[0] => Sub8BIT:instSub8BIT00.A[0]
+A[1] => Sub8BIT:instSub8BIT00.A[1]
+A[2] => Sub8BIT:instSub8BIT00.A[2]
+A[3] => Sub8BIT:instSub8BIT00.A[3]
+A[4] => Sub8BIT:instSub8BIT00.A[4]
+A[5] => Sub8BIT:instSub8BIT00.A[5]
+A[6] => Sub8BIT:instSub8BIT00.A[6]
+A[7] => Sub8BIT:instSub8BIT00.A[7]
+A[8] => Sub8BIT:instSub8BIT0.A[0]
+A[9] => Sub8BIT:instSub8BIT0.A[1]
+A[10] => Sub8BIT:instSub8BIT0.A[2]
+A[11] => Sub8BIT:instSub8BIT0.A[3]
+A[12] => Sub8BIT:instSub8BIT0.A[4]
+A[13] => Sub8BIT:instSub8BIT0.A[5]
+A[14] => Sub8BIT:instSub8BIT0.A[6]
+A[15] => Sub8BIT:instSub8BIT0.A[7]
+B[0] => Sub8BIT:instSub8BIT00.B[0]
+B[1] => Sub8BIT:instSub8BIT00.B[1]
+B[2] => Sub8BIT:instSub8BIT00.B[2]
+B[3] => Sub8BIT:instSub8BIT00.B[3]
+B[4] => Sub8BIT:instSub8BIT00.B[4]
+B[5] => Sub8BIT:instSub8BIT00.B[5]
+B[6] => Sub8BIT:instSub8BIT00.B[6]
+B[7] => Sub8BIT:instSub8BIT00.B[7]
+B[8] => Sub8BIT:instSub8BIT0.B[0]
+B[9] => Sub8BIT:instSub8BIT0.B[1]
+B[10] => Sub8BIT:instSub8BIT0.B[2]
+B[11] => Sub8BIT:instSub8BIT0.B[3]
+B[12] => Sub8BIT:instSub8BIT0.B[4]
+B[13] => Sub8BIT:instSub8BIT0.B[5]
+B[14] => Sub8BIT:instSub8BIT0.B[6]
+B[15] => Sub8BIT:instSub8BIT0.B[7]
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00
+BrowOUT <= Sub4BIT:instSub4BIT0.BrowOUT
+BrowIN => Sub4BIT:instSub4BIT00.BrowIN
+A[0] => Sub4BIT:instSub4BIT00.A[0]
+A[1] => Sub4BIT:instSub4BIT00.A[1]
+A[2] => Sub4BIT:instSub4BIT00.A[2]
+A[3] => Sub4BIT:instSub4BIT00.A[3]
+A[4] => Sub4BIT:instSub4BIT0.A[0]
+A[5] => Sub4BIT:instSub4BIT0.A[1]
+A[6] => Sub4BIT:instSub4BIT0.A[2]
+A[7] => Sub4BIT:instSub4BIT0.A[3]
+B[0] => Sub4BIT:instSub4BIT00.B[0]
+B[1] => Sub4BIT:instSub4BIT00.B[1]
+B[2] => Sub4BIT:instSub4BIT00.B[2]
+B[3] => Sub4BIT:instSub4BIT00.B[3]
+B[4] => Sub4BIT:instSub4BIT0.B[0]
+B[5] => Sub4BIT:instSub4BIT0.B[1]
+B[6] => Sub4BIT:instSub4BIT0.B[2]
+B[7] => Sub4BIT:instSub4BIT0.B[3]
+R[0] <= Sub4BIT:instSub4BIT00.R[0]
+R[1] <= Sub4BIT:instSub4BIT00.R[1]
+R[2] <= Sub4BIT:instSub4BIT00.R[2]
+R[3] <= Sub4BIT:instSub4BIT00.R[3]
+R[4] <= Sub4BIT:instSub4BIT0.R[0]
+R[5] <= Sub4BIT:instSub4BIT0.R[1]
+R[6] <= Sub4BIT:instSub4BIT0.R[2]
+R[7] <= Sub4BIT:instSub4BIT0.R[3]
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT0
+BrowOUT <= Sub1BIT:instSub1BIT2.BrowOUT
+A[0] => Sub1BIT:instSub1BIT00.A
+A[1] => Sub1BIT:instSub1BIT0.A
+A[2] => Sub1BIT:instSub1BIT1.A
+A[3] => Sub1BIT:instSub1BIT2.A
+B[0] => Sub1BIT:instSub1BIT00.B
+B[1] => Sub1BIT:instSub1BIT0.B
+B[2] => Sub1BIT:instSub1BIT1.B
+B[3] => Sub1BIT:instSub1BIT2.B
+BrowIN => Sub1BIT:instSub1BIT00.BrowIN
+R[0] <= Sub1BIT:instSub1BIT00.R
+R[1] <= Sub1BIT:instSub1BIT0.R
+R[2] <= Sub1BIT:instSub1BIT1.R
+R[3] <= Sub1BIT:instSub1BIT2.R
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT2
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT2|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT1
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT1|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT0
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT0|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT00
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT00|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT00
+BrowOUT <= Sub1BIT:instSub1BIT2.BrowOUT
+A[0] => Sub1BIT:instSub1BIT00.A
+A[1] => Sub1BIT:instSub1BIT0.A
+A[2] => Sub1BIT:instSub1BIT1.A
+A[3] => Sub1BIT:instSub1BIT2.A
+B[0] => Sub1BIT:instSub1BIT00.B
+B[1] => Sub1BIT:instSub1BIT0.B
+B[2] => Sub1BIT:instSub1BIT1.B
+B[3] => Sub1BIT:instSub1BIT2.B
+BrowIN => Sub1BIT:instSub1BIT00.BrowIN
+R[0] <= Sub1BIT:instSub1BIT00.R
+R[1] <= Sub1BIT:instSub1BIT0.R
+R[2] <= Sub1BIT:instSub1BIT1.R
+R[3] <= Sub1BIT:instSub1BIT2.R
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT2
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT2|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT1
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT1|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT0
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT0|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT00
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT00|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT00|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0
+BrowOUT <= Sub4BIT:instSub4BIT0.BrowOUT
+BrowIN => Sub4BIT:instSub4BIT00.BrowIN
+A[0] => Sub4BIT:instSub4BIT00.A[0]
+A[1] => Sub4BIT:instSub4BIT00.A[1]
+A[2] => Sub4BIT:instSub4BIT00.A[2]
+A[3] => Sub4BIT:instSub4BIT00.A[3]
+A[4] => Sub4BIT:instSub4BIT0.A[0]
+A[5] => Sub4BIT:instSub4BIT0.A[1]
+A[6] => Sub4BIT:instSub4BIT0.A[2]
+A[7] => Sub4BIT:instSub4BIT0.A[3]
+B[0] => Sub4BIT:instSub4BIT00.B[0]
+B[1] => Sub4BIT:instSub4BIT00.B[1]
+B[2] => Sub4BIT:instSub4BIT00.B[2]
+B[3] => Sub4BIT:instSub4BIT00.B[3]
+B[4] => Sub4BIT:instSub4BIT0.B[0]
+B[5] => Sub4BIT:instSub4BIT0.B[1]
+B[6] => Sub4BIT:instSub4BIT0.B[2]
+B[7] => Sub4BIT:instSub4BIT0.B[3]
+R[0] <= Sub4BIT:instSub4BIT00.R[0]
+R[1] <= Sub4BIT:instSub4BIT00.R[1]
+R[2] <= Sub4BIT:instSub4BIT00.R[2]
+R[3] <= Sub4BIT:instSub4BIT00.R[3]
+R[4] <= Sub4BIT:instSub4BIT0.R[0]
+R[5] <= Sub4BIT:instSub4BIT0.R[1]
+R[6] <= Sub4BIT:instSub4BIT0.R[2]
+R[7] <= Sub4BIT:instSub4BIT0.R[3]
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT0
+BrowOUT <= Sub1BIT:instSub1BIT2.BrowOUT
+A[0] => Sub1BIT:instSub1BIT00.A
+A[1] => Sub1BIT:instSub1BIT0.A
+A[2] => Sub1BIT:instSub1BIT1.A
+A[3] => Sub1BIT:instSub1BIT2.A
+B[0] => Sub1BIT:instSub1BIT00.B
+B[1] => Sub1BIT:instSub1BIT0.B
+B[2] => Sub1BIT:instSub1BIT1.B
+B[3] => Sub1BIT:instSub1BIT2.B
+BrowIN => Sub1BIT:instSub1BIT00.BrowIN
+R[0] <= Sub1BIT:instSub1BIT00.R
+R[1] <= Sub1BIT:instSub1BIT0.R
+R[2] <= Sub1BIT:instSub1BIT1.R
+R[3] <= Sub1BIT:instSub1BIT2.R
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT2
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT2|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT1
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT1|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT0
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT0|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT00
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT0|Sub1BIT:instSub1BIT00|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT00
+BrowOUT <= Sub1BIT:instSub1BIT2.BrowOUT
+A[0] => Sub1BIT:instSub1BIT00.A
+A[1] => Sub1BIT:instSub1BIT0.A
+A[2] => Sub1BIT:instSub1BIT1.A
+A[3] => Sub1BIT:instSub1BIT2.A
+B[0] => Sub1BIT:instSub1BIT00.B
+B[1] => Sub1BIT:instSub1BIT0.B
+B[2] => Sub1BIT:instSub1BIT1.B
+B[3] => Sub1BIT:instSub1BIT2.B
+BrowIN => Sub1BIT:instSub1BIT00.BrowIN
+R[0] <= Sub1BIT:instSub1BIT00.R
+R[1] <= Sub1BIT:instSub1BIT0.R
+R[2] <= Sub1BIT:instSub1BIT1.R
+R[3] <= Sub1BIT:instSub1BIT2.R
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT2
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT2|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT1
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT1|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT0
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT0|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT00
+R <= XOR3:instXOR00.OUT
+BrowIN => XOR3:instXOR00.IN3
+BrowIN => inst1AND0.IN1
+BrowIN => inst1AND1.IN1
+A => XOR3:instXOR00.IN1
+A => instNOT00.IN0
+B => XOR3:instXOR00.IN2
+B => inst1AND1.IN0
+B => inst1AND00.IN1
+BrowOUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Sub16BIT:inst13|Sub8BIT:instSub8BIT0|Sub4BIT:instSub4BIT00|Sub1BIT:instSub1BIT00|XOR3:instXOR00
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+
+|Multi16bit|Multi8:instMulti80
+O[0] <= ShiftLeft16bit:instShitLieft16bit0.O[0]
+O[1] <= ShiftLeft16bit:instShitLieft16bit0.O[1]
+O[2] <= ShiftLeft16bit:instShitLieft16bit0.O[2]
+O[3] <= ShiftLeft16bit:instShitLieft16bit0.O[3]
+O[4] <= ShiftLeft16bit:instShitLieft16bit0.O[4]
+O[5] <= ShiftLeft16bit:instShitLieft16bit0.O[5]
+O[6] <= ShiftLeft16bit:instShitLieft16bit0.O[6]
+O[7] <= ShiftLeft16bit:instShitLieft16bit0.O[7]
+O[8] <= ShiftLeft16bit:instShitLieft16bit0.O[8]
+O[9] <= ShiftLeft16bit:instShitLieft16bit0.O[9]
+O[10] <= ShiftLeft16bit:instShitLieft16bit0.O[10]
+O[11] <= ShiftLeft16bit:instShitLieft16bit0.O[11]
+O[12] <= ShiftLeft16bit:instShitLieft16bit0.O[12]
+O[13] <= ShiftLeft16bit:instShitLieft16bit0.O[13]
+O[14] <= ShiftLeft16bit:instShitLieft16bit0.O[14]
+O[15] <= ShiftLeft16bit:instShitLieft16bit0.O[15]
+A[0] => ShiftLeft16bit:instShitLieft16bit0.I[0]
+A[1] => ShiftLeft16bit:instShitLieft16bit0.I[1]
+A[2] => ShiftLeft16bit:instShitLieft16bit0.I[2]
+A[3] => ShiftLeft16bit:instShitLieft16bit0.I[3]
+A[4] => ShiftLeft16bit:instShitLieft16bit0.I[4]
+A[5] => ShiftLeft16bit:instShitLieft16bit0.I[5]
+A[6] => ShiftLeft16bit:instShitLieft16bit0.I[6]
+A[7] => ShiftLeft16bit:instShitLieft16bit0.I[7]
+A[8] => ShiftLeft16bit:instShitLieft16bit0.I[8]
+A[9] => ShiftLeft16bit:instShitLieft16bit0.I[9]
+A[10] => ShiftLeft16bit:instShitLieft16bit0.I[10]
+A[11] => ShiftLeft16bit:instShitLieft16bit0.I[11]
+A[12] => ShiftLeft16bit:instShitLieft16bit0.I[12]
+A[13] => ShiftLeft16bit:instShitLieft16bit0.I[13]
+A[14] => ShiftLeft16bit:instShitLieft16bit0.I[14]
+A[15] => ShiftLeft16bit:instShitLieft16bit0.I[15]
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0
+O[0] <= ShiftLeft8bit:instShiftLef8bit1.O[0]
+O[1] <= ShiftLeft8bit:instShiftLef8bit1.O[1]
+O[2] <= ShiftLeft8bit:instShiftLef8bit1.O[2]
+O[3] <= ShiftLeft8bit:instShiftLef8bit1.O[3]
+O[4] <= ShiftLeft8bit:instShiftLef8bit1.O[4]
+O[5] <= ShiftLeft8bit:instShiftLef8bit1.O[5]
+O[6] <= ShiftLeft8bit:instShiftLef8bit1.O[6]
+O[7] <= ShiftLeft8bit:instShiftLef8bit1.O[7]
+O[8] <= ShiftLeft8bit:instShiftLef8bit0.O[0]
+O[9] <= ShiftLeft8bit:instShiftLef8bit0.O[1]
+O[10] <= ShiftLeft8bit:instShiftLef8bit0.O[2]
+O[11] <= ShiftLeft8bit:instShiftLef8bit0.O[3]
+O[12] <= ShiftLeft8bit:instShiftLef8bit0.O[4]
+O[13] <= ShiftLeft8bit:instShiftLef8bit0.O[5]
+O[14] <= ShiftLeft8bit:instShiftLef8bit0.O[6]
+O[15] <= ShiftLeft8bit:instShiftLef8bit0.O[7]
+I[0] => ShiftLeft8bit:instShiftLef8bit1.I[0]
+I[1] => ShiftLeft8bit:instShiftLef8bit1.I[1]
+I[2] => ShiftLeft8bit:instShiftLef8bit1.I[2]
+I[3] => ShiftLeft8bit:instShiftLef8bit1.I[3]
+I[4] => ShiftLeft8bit:instShiftLef8bit1.I[4]
+I[5] => ShiftLeft8bit:instShiftLef8bit0.Shift3[0]
+I[5] => ShiftLeft8bit:instShiftLef8bit1.I[5]
+I[6] => ShiftLeft8bit:instShiftLef8bit0.Shift2[0]
+I[6] => ShiftLeft8bit:instShiftLef8bit0.Shift3[1]
+I[6] => ShiftLeft8bit:instShiftLef8bit1.I[6]
+I[7] => ShiftLeft8bit:instShiftLef8bit0.Shift1
+I[7] => ShiftLeft8bit:instShiftLef8bit0.Shift2[1]
+I[7] => ShiftLeft8bit:instShiftLef8bit0.Shift3[2]
+I[7] => ShiftLeft8bit:instShiftLef8bit1.I[7]
+I[8] => ShiftLeft8bit:instShiftLef8bit0.I[0]
+I[9] => ShiftLeft8bit:instShiftLef8bit0.I[1]
+I[10] => ShiftLeft8bit:instShiftLef8bit0.I[2]
+I[11] => ShiftLeft8bit:instShiftLef8bit0.I[3]
+I[12] => ShiftLeft8bit:instShiftLef8bit0.I[4]
+I[13] => ShiftLeft8bit:instShiftLef8bit0.I[5]
+I[14] => ShiftLeft8bit:instShiftLef8bit0.I[6]
+I[15] => ShiftLeft8bit:instShiftLef8bit0.I[7]
+S[0] => ShiftLeft8bit:instShiftLef8bit0.S[0]
+S[0] => ShiftLeft8bit:instShiftLef8bit1.S[0]
+S[1] => ShiftLeft8bit:instShiftLef8bit0.S[1]
+S[1] => ShiftLeft8bit:instShiftLef8bit1.S[1]
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0
+O[0] <= ShiftLeft4bit:instShiftLeft4bit1.O[0]
+O[1] <= ShiftLeft4bit:instShiftLeft4bit1.O[1]
+O[2] <= ShiftLeft4bit:instShiftLeft4bit1.O[2]
+O[3] <= ShiftLeft4bit:instShiftLeft4bit1.O[3]
+O[4] <= ShiftLeft4bit:instShiftLeft4bit0.O[0]
+O[5] <= ShiftLeft4bit:instShiftLeft4bit0.O[1]
+O[6] <= ShiftLeft4bit:instShiftLeft4bit0.O[2]
+O[7] <= ShiftLeft4bit:instShiftLeft4bit0.O[3]
+I[0] => ShiftLeft4bit:instShiftLeft4bit1.I[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit1.I[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[0]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit1.I[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift1
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[1]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit1.I[3]
+I[4] => ShiftLeft4bit:instShiftLeft4bit0.I[0]
+I[5] => ShiftLeft4bit:instShiftLeft4bit0.I[1]
+I[6] => ShiftLeft4bit:instShiftLeft4bit0.I[2]
+I[7] => ShiftLeft4bit:instShiftLeft4bit0.I[3]
+S[0] => ShiftLeft4bit:instShiftLeft4bit0.S[0]
+S[0] => ShiftLeft4bit:instShiftLeft4bit1.S[0]
+S[1] => ShiftLeft4bit:instShiftLeft4bit0.S[1]
+S[1] => ShiftLeft4bit:instShiftLeft4bit1.S[1]
+Shift1 => ShiftLeft4bit:instShiftLeft4bit1.Shift1
+Shift2[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[0]
+Shift2[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[1]
+Shift3[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[0]
+Shift3[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[1]
+Shift3[2] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[2]
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit0|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1
+O[0] <= ShiftLeft4bit:instShiftLeft4bit1.O[0]
+O[1] <= ShiftLeft4bit:instShiftLeft4bit1.O[1]
+O[2] <= ShiftLeft4bit:instShiftLeft4bit1.O[2]
+O[3] <= ShiftLeft4bit:instShiftLeft4bit1.O[3]
+O[4] <= ShiftLeft4bit:instShiftLeft4bit0.O[0]
+O[5] <= ShiftLeft4bit:instShiftLeft4bit0.O[1]
+O[6] <= ShiftLeft4bit:instShiftLeft4bit0.O[2]
+O[7] <= ShiftLeft4bit:instShiftLeft4bit0.O[3]
+I[0] => ShiftLeft4bit:instShiftLeft4bit1.I[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[0]
+I[1] => ShiftLeft4bit:instShiftLeft4bit1.I[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[0]
+I[2] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[1]
+I[2] => ShiftLeft4bit:instShiftLeft4bit1.I[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift1
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift2[1]
+I[3] => ShiftLeft4bit:instShiftLeft4bit0.Shift3[2]
+I[3] => ShiftLeft4bit:instShiftLeft4bit1.I[3]
+I[4] => ShiftLeft4bit:instShiftLeft4bit0.I[0]
+I[5] => ShiftLeft4bit:instShiftLeft4bit0.I[1]
+I[6] => ShiftLeft4bit:instShiftLeft4bit0.I[2]
+I[7] => ShiftLeft4bit:instShiftLeft4bit0.I[3]
+S[0] => ShiftLeft4bit:instShiftLeft4bit0.S[0]
+S[0] => ShiftLeft4bit:instShiftLeft4bit1.S[0]
+S[1] => ShiftLeft4bit:instShiftLeft4bit0.S[1]
+S[1] => ShiftLeft4bit:instShiftLeft4bit1.S[1]
+Shift1 => ShiftLeft4bit:instShiftLeft4bit1.Shift1
+Shift2[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[0]
+Shift2[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift2[1]
+Shift3[0] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[0]
+Shift3[1] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[1]
+Shift3[2] => ShiftLeft4bit:instShiftLeft4bit1.Shift3[2]
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit0|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1
+O[0] <= Mux4To1Shift:instShiftMux2.O
+O[1] <= Mux4To1Shift:instShiftMux1.O
+O[2] <= Mux4To1Shift:instShiftMux0.O
+O[3] <= Mux4To1Shift:instShiftMux00.O
+I[0] => Mux4To1Shift:instShiftMux1.D1
+I[0] => Mux4To1Shift:instShiftMux0.D2
+I[0] => Mux4To1Shift:instShiftMux00.D3
+I[0] => Mux4To1Shift:instShiftMux2.D0
+I[1] => Mux4To1Shift:instShiftMux1.D0
+I[1] => Mux4To1Shift:instShiftMux0.D1
+I[1] => Mux4To1Shift:instShiftMux00.D2
+I[2] => Mux4To1Shift:instShiftMux0.D0
+I[2] => Mux4To1Shift:instShiftMux00.D1
+I[3] => Mux4To1Shift:instShiftMux00.D0
+Shift2[0] => Mux4To1Shift:instShiftMux2.D2
+Shift2[1] => Mux4To1Shift:instShiftMux1.D2
+Shift3[0] => Mux4To1Shift:instShiftMux2.D3
+Shift3[1] => Mux4To1Shift:instShiftMux1.D3
+Shift3[2] => Mux4To1Shift:instShiftMux0.D3
+S[0] => Mux4To1Shift:instShiftMux1.S[0]
+S[0] => Mux4To1Shift:instShiftMux0.S[0]
+S[0] => Mux4To1Shift:instShiftMux00.S[0]
+S[0] => Mux4To1Shift:instShiftMux2.S[0]
+S[1] => Mux4To1Shift:instShiftMux1.S[1]
+S[1] => Mux4To1Shift:instShiftMux0.S[1]
+S[1] => Mux4To1Shift:instShiftMux00.S[1]
+S[1] => Mux4To1Shift:instShiftMux2.S[1]
+Shift1 => Mux4To1Shift:instShiftMux2.D1
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux1
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux0
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux00
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Multi8:instMulti80|ShiftLeft16bit:instShitLieft16bit0|ShiftLeft8bit:instShiftLef8bit1|ShiftLeft4bit:instShiftLeft4bit1|Mux4To1Shift:instShiftMux2
+O <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S[0] => inst3.IN0
+S[0] => inst6.IN0
+S[0] => inst2.IN0
+S[1] => inst4.IN0
+S[1] => inst5.IN1
+S[1] => inst6.IN1
+D0 => inst1.IN2
+D2 => inst5.IN2
+D3 => inst6.IN2
+D1 => inst2.IN2
+
+
+|Multi16bit|Adder16Bit:inst15
+R[0] <= Adder8Bit:instAdder8Bit00.R[0]
+R[1] <= Adder8Bit:instAdder8Bit00.R[1]
+R[2] <= Adder8Bit:instAdder8Bit00.R[2]
+R[3] <= Adder8Bit:instAdder8Bit00.R[3]
+R[4] <= Adder8Bit:instAdder8Bit00.R[4]
+R[5] <= Adder8Bit:instAdder8Bit00.R[5]
+R[6] <= Adder8Bit:instAdder8Bit00.R[6]
+R[7] <= Adder8Bit:instAdder8Bit00.R[7]
+R[8] <= Adder8Bit:instAdder8Bit0.R[0]
+R[9] <= Adder8Bit:instAdder8Bit0.R[1]
+R[10] <= Adder8Bit:instAdder8Bit0.R[2]
+R[11] <= Adder8Bit:instAdder8Bit0.R[3]
+R[12] <= Adder8Bit:instAdder8Bit0.R[4]
+R[13] <= Adder8Bit:instAdder8Bit0.R[5]
+R[14] <= Adder8Bit:instAdder8Bit0.R[6]
+R[15] <= Adder8Bit:instAdder8Bit0.R[7]
+A[0] => Adder8Bit:instAdder8Bit00.A[0]
+A[1] => Adder8Bit:instAdder8Bit00.A[1]
+A[2] => Adder8Bit:instAdder8Bit00.A[2]
+A[3] => Adder8Bit:instAdder8Bit00.A[3]
+A[4] => Adder8Bit:instAdder8Bit00.A[4]
+A[5] => Adder8Bit:instAdder8Bit00.A[5]
+A[6] => Adder8Bit:instAdder8Bit00.A[6]
+A[7] => Adder8Bit:instAdder8Bit00.A[7]
+A[8] => Adder8Bit:instAdder8Bit0.A[0]
+A[9] => Adder8Bit:instAdder8Bit0.A[1]
+A[10] => Adder8Bit:instAdder8Bit0.A[2]
+A[11] => Adder8Bit:instAdder8Bit0.A[3]
+A[12] => Adder8Bit:instAdder8Bit0.A[4]
+A[13] => Adder8Bit:instAdder8Bit0.A[5]
+A[14] => Adder8Bit:instAdder8Bit0.A[6]
+A[15] => Adder8Bit:instAdder8Bit0.A[7]
+B[0] => Adder8Bit:instAdder8Bit00.B[0]
+B[1] => Adder8Bit:instAdder8Bit00.B[1]
+B[2] => Adder8Bit:instAdder8Bit00.B[2]
+B[3] => Adder8Bit:instAdder8Bit00.B[3]
+B[4] => Adder8Bit:instAdder8Bit00.B[4]
+B[5] => Adder8Bit:instAdder8Bit00.B[5]
+B[6] => Adder8Bit:instAdder8Bit00.B[6]
+B[7] => Adder8Bit:instAdder8Bit00.B[7]
+B[8] => Adder8Bit:instAdder8Bit0.B[0]
+B[9] => Adder8Bit:instAdder8Bit0.B[1]
+B[10] => Adder8Bit:instAdder8Bit0.B[2]
+B[11] => Adder8Bit:instAdder8Bit0.B[3]
+B[12] => Adder8Bit:instAdder8Bit0.B[4]
+B[13] => Adder8Bit:instAdder8Bit0.B[5]
+B[14] => Adder8Bit:instAdder8Bit0.B[6]
+B[15] => Adder8Bit:instAdder8Bit0.B[7]
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00
+CaryOUT <= Adder4Bit:inst0.CaryOut
+CaryIN => Adder4Bit:inst00.CaryIn
+A[0] => Adder4Bit:inst00.I0[0]
+A[1] => Adder4Bit:inst00.I0[1]
+A[2] => Adder4Bit:inst00.I0[2]
+A[3] => Adder4Bit:inst00.I0[3]
+A[4] => Adder4Bit:inst0.I0[0]
+A[5] => Adder4Bit:inst0.I0[1]
+A[6] => Adder4Bit:inst0.I0[2]
+A[7] => Adder4Bit:inst0.I0[3]
+B[0] => Adder4Bit:inst00.I1[0]
+B[1] => Adder4Bit:inst00.I1[1]
+B[2] => Adder4Bit:inst00.I1[2]
+B[3] => Adder4Bit:inst00.I1[3]
+B[4] => Adder4Bit:inst0.I1[0]
+B[5] => Adder4Bit:inst0.I1[1]
+B[6] => Adder4Bit:inst0.I1[2]
+B[7] => Adder4Bit:inst0.I1[3]
+R[0] <= Adder4Bit:inst00.O[0]
+R[1] <= Adder4Bit:inst00.O[1]
+R[2] <= Adder4Bit:inst00.O[2]
+R[3] <= Adder4Bit:inst00.O[3]
+R[4] <= Adder4Bit:inst0.O[0]
+R[5] <= Adder4Bit:inst0.O[1]
+R[6] <= Adder4Bit:inst0.O[2]
+R[7] <= Adder4Bit:inst0.O[3]
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit00|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0
+CaryOUT <= Adder4Bit:inst0.CaryOut
+CaryIN => Adder4Bit:inst00.CaryIn
+A[0] => Adder4Bit:inst00.I0[0]
+A[1] => Adder4Bit:inst00.I0[1]
+A[2] => Adder4Bit:inst00.I0[2]
+A[3] => Adder4Bit:inst00.I0[3]
+A[4] => Adder4Bit:inst0.I0[0]
+A[5] => Adder4Bit:inst0.I0[1]
+A[6] => Adder4Bit:inst0.I0[2]
+A[7] => Adder4Bit:inst0.I0[3]
+B[0] => Adder4Bit:inst00.I1[0]
+B[1] => Adder4Bit:inst00.I1[1]
+B[2] => Adder4Bit:inst00.I1[2]
+B[3] => Adder4Bit:inst00.I1[3]
+B[4] => Adder4Bit:inst0.I1[0]
+B[5] => Adder4Bit:inst0.I1[1]
+B[6] => Adder4Bit:inst0.I1[2]
+B[7] => Adder4Bit:inst0.I1[3]
+R[0] <= Adder4Bit:inst00.O[0]
+R[1] <= Adder4Bit:inst00.O[1]
+R[2] <= Adder4Bit:inst00.O[2]
+R[3] <= Adder4Bit:inst00.O[3]
+R[4] <= Adder4Bit:inst0.O[0]
+R[5] <= Adder4Bit:inst0.O[1]
+R[6] <= Adder4Bit:inst0.O[2]
+R[7] <= Adder4Bit:inst0.O[3]
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0|Adder4Bit:inst0|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00
+CaryOut <= FAdder1Bit:instFAdder1Bit2.CaryOut
+I0[0] => FAdder1Bit:instFAdder1Bit00.I0
+I0[1] => FAdder1Bit:instFAdder1Bit0.I0
+I0[2] => FAdder1Bit:instFAdder1Bit1.I0
+I0[3] => FAdder1Bit:instFAdder1Bit2.I0
+I1[0] => FAdder1Bit:instFAdder1Bit00.I1
+I1[1] => FAdder1Bit:instFAdder1Bit0.I1
+I1[2] => FAdder1Bit:instFAdder1Bit1.I1
+I1[3] => FAdder1Bit:instFAdder1Bit2.I1
+CaryIn => FAdder1Bit:instFAdder1Bit00.CaryIn
+O[0] <= FAdder1Bit:instFAdder1Bit00.R
+O[1] <= FAdder1Bit:instFAdder1Bit0.R
+O[2] <= FAdder1Bit:instFAdder1Bit1.R
+O[3] <= FAdder1Bit:instFAdder1Bit2.R
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit2
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit1
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit0
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Multi16bit|Adder16Bit:inst15|Adder8Bit:instAdder8Bit0|Adder4Bit:inst00|FAdder1Bit:instFAdder1Bit00
+R <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+I0 => inst3.IN1
+I1 => inst.IN1
+I1 => inst3.IN0
+CaryIn => inst1.IN1
+CaryIn => inst2.IN1
+CaryOut <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

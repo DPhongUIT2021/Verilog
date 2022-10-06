@@ -1,0 +1,391 @@
+|Reg16Sharing
+O[0] <= OneRegister16bit:Register0.OutA[0]
+O[1] <= OneRegister16bit:Register0.OutA[1]
+O[2] <= OneRegister16bit:Register0.OutA[2]
+O[3] <= OneRegister16bit:Register0.OutA[3]
+O[4] <= OneRegister16bit:Register0.OutA[4]
+O[5] <= OneRegister16bit:Register0.OutA[5]
+O[6] <= OneRegister16bit:Register0.OutA[6]
+O[7] <= OneRegister16bit:Register0.OutA[7]
+O[8] <= OneRegister16bit:Register0.OutA[8]
+O[9] <= OneRegister16bit:Register0.OutA[9]
+O[10] <= OneRegister16bit:Register0.OutA[10]
+O[11] <= OneRegister16bit:Register0.OutA[11]
+O[12] <= OneRegister16bit:Register0.OutA[12]
+O[13] <= OneRegister16bit:Register0.OutA[13]
+O[14] <= OneRegister16bit:Register0.OutA[14]
+O[15] <= OneRegister16bit:Register0.OutA[15]
+RE => OneRegister16bit:Register0.RAA
+WE => OneRegister16bit:Register0.WA
+CLK => OneRegister16bit:Register0.CLK
+I[0] => OneRegister16bit:Register0.I[0]
+I[1] => OneRegister16bit:Register0.I[1]
+I[2] => OneRegister16bit:Register0.I[2]
+I[3] => OneRegister16bit:Register0.I[3]
+I[4] => OneRegister16bit:Register0.I[4]
+I[5] => OneRegister16bit:Register0.I[5]
+I[6] => OneRegister16bit:Register0.I[6]
+I[7] => OneRegister16bit:Register0.I[7]
+I[8] => OneRegister16bit:Register0.I[8]
+I[9] => OneRegister16bit:Register0.I[9]
+I[10] => OneRegister16bit:Register0.I[10]
+I[11] => OneRegister16bit:Register0.I[11]
+I[12] => OneRegister16bit:Register0.I[12]
+I[13] => OneRegister16bit:Register0.I[13]
+I[14] => OneRegister16bit:Register0.I[14]
+I[15] => OneRegister16bit:Register0.I[15]
+
+
+|Reg16Sharing|OneRegister16bit:Register0
+OutA[0] <= Register:instReg0.OutA[0]
+OutA[1] <= Register:instReg0.OutA[1]
+OutA[2] <= Register:instReg0.OutA[2]
+OutA[3] <= Register:instReg0.OutA[3]
+OutA[4] <= Register:instReg0.OutA[4]
+OutA[5] <= Register:instReg0.OutA[5]
+OutA[6] <= Register:instReg0.OutA[6]
+OutA[7] <= Register:instReg0.OutA[7]
+OutA[8] <= Register:instReg00.OutA[0]
+OutA[9] <= Register:instReg00.OutA[1]
+OutA[10] <= Register:instReg00.OutA[2]
+OutA[11] <= Register:instReg00.OutA[3]
+OutA[12] <= Register:instReg00.OutA[4]
+OutA[13] <= Register:instReg00.OutA[5]
+OutA[14] <= Register:instReg00.OutA[6]
+OutA[15] <= Register:instReg00.OutA[7]
+RAB => Register:instReg00.RBE
+RAB => Register:instReg0.RBE
+RAA => Register:instReg00.RAE
+RAA => Register:instReg0.RAE
+WA => Register:instReg00.WE
+WA => Register:instReg0.WE
+CLK => Register:instReg00.CLK
+CLK => Register:instReg0.CLK
+I[0] => Register:instReg0.I[0]
+I[1] => Register:instReg0.I[1]
+I[2] => Register:instReg0.I[2]
+I[3] => Register:instReg0.I[3]
+I[4] => Register:instReg0.I[4]
+I[5] => Register:instReg0.I[5]
+I[6] => Register:instReg0.I[6]
+I[7] => Register:instReg0.I[7]
+I[8] => Register:instReg00.I[0]
+I[9] => Register:instReg00.I[1]
+I[10] => Register:instReg00.I[2]
+I[11] => Register:instReg00.I[3]
+I[12] => Register:instReg00.I[4]
+I[13] => Register:instReg00.I[5]
+I[14] => Register:instReg00.I[6]
+I[15] => Register:instReg00.I[7]
+OutB[0] <= Register:instReg0.OutB[0]
+OutB[1] <= Register:instReg0.OutB[1]
+OutB[2] <= Register:instReg0.OutB[2]
+OutB[3] <= Register:instReg0.OutB[3]
+OutB[4] <= Register:instReg0.OutB[4]
+OutB[5] <= Register:instReg0.OutB[5]
+OutB[6] <= Register:instReg0.OutB[6]
+OutB[7] <= Register:instReg0.OutB[7]
+OutB[8] <= Register:instReg00.OutB[0]
+OutB[9] <= Register:instReg00.OutB[1]
+OutB[10] <= Register:instReg00.OutB[2]
+OutB[11] <= Register:instReg00.OutB[3]
+OutB[12] <= Register:instReg00.OutB[4]
+OutB[13] <= Register:instReg00.OutB[5]
+OutB[14] <= Register:instReg00.OutB[6]
+OutB[15] <= Register:instReg00.OutB[7]
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg00
+OutA[0] <= O[0].DB_MAX_OUTPUT_PORT_TYPE
+OutA[1] <= O[1].DB_MAX_OUTPUT_PORT_TYPE
+OutA[2] <= O[2].DB_MAX_OUTPUT_PORT_TYPE
+OutA[3] <= O[3].DB_MAX_OUTPUT_PORT_TYPE
+OutA[4] <= O[4].DB_MAX_OUTPUT_PORT_TYPE
+OutA[5] <= O[5].DB_MAX_OUTPUT_PORT_TYPE
+OutA[6] <= O[6].DB_MAX_OUTPUT_PORT_TYPE
+OutA[7] <= O[7].DB_MAX_OUTPUT_PORT_TYPE
+RBE => RFC:instRFC0.RBE
+RBE => RFC:instRFC3.RBE
+RBE => RFC:instRFC4.RBE
+RBE => RFC:instRFC5.RBE
+RBE => RFC:instRFC1.RBE
+RBE => RFC:instRFC2.RBE
+RBE => RFC:instRFC6.RBE
+RBE => RFC:instRFC00.RBE
+RAE => RFC:instRFC0.RAE
+RAE => RFC:instRFC3.RAE
+RAE => RFC:instRFC4.RAE
+RAE => RFC:instRFC5.RAE
+RAE => RFC:instRFC1.RAE
+RAE => RFC:instRFC2.RAE
+RAE => RFC:instRFC6.RAE
+RAE => RFC:instRFC00.RAE
+WE => RFC:instRFC0.Write
+WE => RFC:instRFC3.Write
+WE => RFC:instRFC4.Write
+WE => RFC:instRFC5.Write
+WE => RFC:instRFC1.Write
+WE => RFC:instRFC2.Write
+WE => RFC:instRFC6.Write
+WE => RFC:instRFC00.Write
+I[0] => RFC:instRFC00.Input
+I[1] => RFC:instRFC0.Input
+I[2] => RFC:instRFC1.Input
+I[3] => RFC:instRFC2.Input
+I[4] => RFC:instRFC3.Input
+I[5] => RFC:instRFC4.Input
+I[6] => RFC:instRFC5.Input
+I[7] => RFC:instRFC6.Input
+CLK => RFC:instRFC0.CLK
+CLK => RFC:instRFC3.CLK
+CLK => RFC:instRFC4.CLK
+CLK => RFC:instRFC5.CLK
+CLK => RFC:instRFC1.CLK
+CLK => RFC:instRFC2.CLK
+CLK => RFC:instRFC6.CLK
+CLK => RFC:instRFC00.CLK
+OutB[0] <= RFC:instRFC00.OutB
+OutB[1] <= RFC:instRFC0.OutB
+OutB[2] <= RFC:instRFC1.OutB
+OutB[3] <= RFC:instRFC2.OutB
+OutB[4] <= RFC:instRFC3.OutB
+OutB[5] <= RFC:instRFC4.OutB
+OutB[6] <= RFC:instRFC5.OutB
+OutB[7] <= RFC:instRFC6.OutB
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg00|RFC:instRFC0
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg00|RFC:instRFC3
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg00|RFC:instRFC4
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg00|RFC:instRFC5
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg00|RFC:instRFC1
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg00|RFC:instRFC2
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg00|RFC:instRFC6
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg00|RFC:instRFC00
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg0
+OutA[0] <= O[0].DB_MAX_OUTPUT_PORT_TYPE
+OutA[1] <= O[1].DB_MAX_OUTPUT_PORT_TYPE
+OutA[2] <= O[2].DB_MAX_OUTPUT_PORT_TYPE
+OutA[3] <= O[3].DB_MAX_OUTPUT_PORT_TYPE
+OutA[4] <= O[4].DB_MAX_OUTPUT_PORT_TYPE
+OutA[5] <= O[5].DB_MAX_OUTPUT_PORT_TYPE
+OutA[6] <= O[6].DB_MAX_OUTPUT_PORT_TYPE
+OutA[7] <= O[7].DB_MAX_OUTPUT_PORT_TYPE
+RBE => RFC:instRFC0.RBE
+RBE => RFC:instRFC3.RBE
+RBE => RFC:instRFC4.RBE
+RBE => RFC:instRFC5.RBE
+RBE => RFC:instRFC1.RBE
+RBE => RFC:instRFC2.RBE
+RBE => RFC:instRFC6.RBE
+RBE => RFC:instRFC00.RBE
+RAE => RFC:instRFC0.RAE
+RAE => RFC:instRFC3.RAE
+RAE => RFC:instRFC4.RAE
+RAE => RFC:instRFC5.RAE
+RAE => RFC:instRFC1.RAE
+RAE => RFC:instRFC2.RAE
+RAE => RFC:instRFC6.RAE
+RAE => RFC:instRFC00.RAE
+WE => RFC:instRFC0.Write
+WE => RFC:instRFC3.Write
+WE => RFC:instRFC4.Write
+WE => RFC:instRFC5.Write
+WE => RFC:instRFC1.Write
+WE => RFC:instRFC2.Write
+WE => RFC:instRFC6.Write
+WE => RFC:instRFC00.Write
+I[0] => RFC:instRFC00.Input
+I[1] => RFC:instRFC0.Input
+I[2] => RFC:instRFC1.Input
+I[3] => RFC:instRFC2.Input
+I[4] => RFC:instRFC3.Input
+I[5] => RFC:instRFC4.Input
+I[6] => RFC:instRFC5.Input
+I[7] => RFC:instRFC6.Input
+CLK => RFC:instRFC0.CLK
+CLK => RFC:instRFC3.CLK
+CLK => RFC:instRFC4.CLK
+CLK => RFC:instRFC5.CLK
+CLK => RFC:instRFC1.CLK
+CLK => RFC:instRFC2.CLK
+CLK => RFC:instRFC6.CLK
+CLK => RFC:instRFC00.CLK
+OutB[0] <= RFC:instRFC00.OutB
+OutB[1] <= RFC:instRFC0.OutB
+OutB[2] <= RFC:instRFC1.OutB
+OutB[3] <= RFC:instRFC2.OutB
+OutB[4] <= RFC:instRFC3.OutB
+OutB[5] <= RFC:instRFC4.OutB
+OutB[6] <= RFC:instRFC5.OutB
+OutB[7] <= RFC:instRFC6.OutB
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg0|RFC:instRFC0
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg0|RFC:instRFC3
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg0|RFC:instRFC4
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg0|RFC:instRFC5
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg0|RFC:instRFC1
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg0|RFC:instRFC2
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg0|RFC:instRFC6
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+
+|Reg16Sharing|OneRegister16bit:Register0|Register:instReg0|RFC:instRFC00
+OutA <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+Input => inst3.IN0
+Write => inst3.IN1
+Write => inst5.IN0
+RAE => inst4.OE
+OutB <= inst6TRI00.DB_MAX_OUTPUT_PORT_TYPE
+RBE => inst6TRI00.OE
+
+

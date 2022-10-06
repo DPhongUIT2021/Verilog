@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\CE118. Thiet Ke Luan Ly So\designLogic\lib\Latch\simulation\qsim
+vLatch16bit
+Z1 IFHd1bIBaHK>[1=1]`UP893
+Z2 Vgc>LaCa4[:9U0e:GzU]@:0
+Z3 dD:\CE118. Thiet Ke Luan Ly So\designLogic\lib\Latch\simulation\qsim
+Z4 w1654364236
+Z5 8Latch.vo
+Z6 FLatch.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Latch.vo|
+Z9 o-work work -O0
+Z10 n@latch16bit
+!i10b 1
+Z11 !s100 QHNDW_9bQzhf2OJ5^JO7W2
+!s85 0
+Z12 !s108 1654364236.868000
+Z13 !s107 Latch.vo|
+!s101 -O0
+vLatch16bit_vlg_check_tst
+!i10b 1
+!s100 12omXFDjom2a0j[>50<h<3
+I9B0NWc@PM>7]^bh9U^hQ32
+Va2znFBdMTUPi=dnm<YFAO3
+R3
+Z14 w1654364235
+Z15 8Latch.vt
+Z16 FLatch.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1654364236.942000
+Z18 !s107 Latch.vt|
+Z19 !s90 -work|work|Latch.vt|
+!s101 -O0
+R9
+n@latch16bit_vlg_check_tst
+vLatch16bit_vlg_sample_tst
+!i10b 1
+!s100 [FI=X9oEbNJ]7@=Tme=b<1
+IFOOfFLANze4F4NY6m1n_A1
+Vd=<a[1N?4?IQ_2WXV18T^2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+n@latch16bit_vlg_sample_tst
+vLatch16bit_vlg_vec_tst
+!i10b 1
+!s100 gD[37GbE3V97MKdgl89dM0
+I86_IFo>^T;L[1K;?NgJ9Q1
+VfAo=l<oE9>XdLK2`IoP:32
+R3
+R14
+R15
+R16
+L0 423
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+n@latch16bit_vlg_vec_tst
+vLatch8bit
+Z20 In>U;XhE?bN?bAY[LN]dcW1
+Z21 VU_?XE0CAl^HQ?a2U805<50
+R3
+Z22 w1654364052
+R5
+R6
+L0 31
+R7
+r1
+31
+R9
+Z23 n@latch8bit
+Z24 !s100 GYDI_AZDYfS?XJPR]2W0Y1
+Z25 !s108 1654364053.653000
+R13
+R8
+!i10b 1
+!s85 0
+!s101 -O0
+vLatch8bit_vlg_check_tst
+Z26 I=Ul3BhS3lY^D4O2<`cJ<D3
+Z27 VSH5Y1Wa4nXf7Eb6gE78aL2
+R3
+R22
+R15
+R16
+L0 59
+R7
+r1
+31
+Z28 !s108 1654364053.729000
+Z29 !s107 Latch.vt|
+R19
+R9
+Z30 n@latch8bit_vlg_check_tst
+Z31 !s100 O[Mo?zMTPQl;A[@=F6QNH1
+!i10b 1
+!s85 0
+!s101 -O0
+vLatch8bit_vlg_sample_tst
+Z32 Id7^8R;<Y0h`m8b8H]ocHg0
+Z33 V3nPX;@E]5NXm5T>W5NM>S0
+R3
+R22
+R15
+R16
+L0 29
+R7
+r1
+31
+R28
+R29
+R19
+R9
+Z34 n@latch8bit_vlg_sample_tst
+Z35 !s100 >T`H_N4DJPe:0Id3HF]>z1
+!i10b 1
+!s85 0
+!s101 -O0
+vLatch8bit_vlg_vec_tst
+Z36 IIGdGSJJY3f6zFzdka=G;W0
+Z37 VcESeY`?642if]@JWmBhQi3
+R3
+R22
+R15
+R16
+Z38 L0 279
+R7
+r1
+31
+R28
+R29
+R19
+R9
+Z39 n@latch8bit_vlg_vec_tst
+Z40 !s100 z2Bn;HYCH_QfeE?ebfECY3
+!i10b 1
+!s85 0
+!s101 -O0

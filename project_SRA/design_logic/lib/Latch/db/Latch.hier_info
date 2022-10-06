@@ -1,0 +1,91 @@
+|Latch16bit
+Q[0] <= Latch8bit:inst0.Q[0]
+Q[1] <= Latch8bit:inst0.Q[1]
+Q[2] <= Latch8bit:inst0.Q[2]
+Q[3] <= Latch8bit:inst0.Q[3]
+Q[4] <= Latch8bit:inst0.Q[4]
+Q[5] <= Latch8bit:inst0.Q[5]
+Q[6] <= Latch8bit:inst0.Q[6]
+Q[7] <= Latch8bit:inst0.Q[7]
+Q[8] <= Latch8bit:inst1.Q[0]
+Q[9] <= Latch8bit:inst1.Q[1]
+Q[10] <= Latch8bit:inst1.Q[2]
+Q[11] <= Latch8bit:inst1.Q[3]
+Q[12] <= Latch8bit:inst1.Q[4]
+Q[13] <= Latch8bit:inst1.Q[5]
+Q[14] <= Latch8bit:inst1.Q[6]
+Q[15] <= Latch8bit:inst1.Q[7]
+EN => Latch8bit:inst1.EN
+EN => Latch8bit:inst0.EN
+D[0] => Latch8bit:inst0.D[0]
+D[1] => Latch8bit:inst0.D[1]
+D[2] => Latch8bit:inst0.D[2]
+D[3] => Latch8bit:inst0.D[3]
+D[4] => Latch8bit:inst0.D[4]
+D[5] => Latch8bit:inst0.D[5]
+D[6] => Latch8bit:inst0.D[6]
+D[7] => Latch8bit:inst0.D[7]
+D[8] => Latch8bit:inst1.D[0]
+D[9] => Latch8bit:inst1.D[1]
+D[10] => Latch8bit:inst1.D[2]
+D[11] => Latch8bit:inst1.D[3]
+D[12] => Latch8bit:inst1.D[4]
+D[13] => Latch8bit:inst1.D[5]
+D[14] => Latch8bit:inst1.D[6]
+D[15] => Latch8bit:inst1.D[7]
+
+
+|Latch16bit|Latch8bit:inst1
+Q[0] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= inst0.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => inst7.DATAIN
+D[1] => inst6.DATAIN
+D[2] => inst5.DATAIN
+D[3] => inst4.DATAIN
+D[4] => inst3.DATAIN
+D[5] => inst2.DATAIN
+D[6] => inst1.DATAIN
+D[7] => inst0.DATAIN
+EN => inst7.LATCH_ENABLE
+EN => inst6.LATCH_ENABLE
+EN => inst5.LATCH_ENABLE
+EN => inst4.LATCH_ENABLE
+EN => inst3.LATCH_ENABLE
+EN => inst2.LATCH_ENABLE
+EN => inst1.LATCH_ENABLE
+EN => inst0.LATCH_ENABLE
+
+
+|Latch16bit|Latch8bit:inst0
+Q[0] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= inst0.DB_MAX_OUTPUT_PORT_TYPE
+D[0] => inst7.DATAIN
+D[1] => inst6.DATAIN
+D[2] => inst5.DATAIN
+D[3] => inst4.DATAIN
+D[4] => inst3.DATAIN
+D[5] => inst2.DATAIN
+D[6] => inst1.DATAIN
+D[7] => inst0.DATAIN
+EN => inst7.LATCH_ENABLE
+EN => inst6.LATCH_ENABLE
+EN => inst5.LATCH_ENABLE
+EN => inst4.LATCH_ENABLE
+EN => inst3.LATCH_ENABLE
+EN => inst2.LATCH_ENABLE
+EN => inst1.LATCH_ENABLE
+EN => inst0.LATCH_ENABLE
+
+
